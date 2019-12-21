@@ -149,4 +149,3 @@ print(f"Total: ${total_net}")
 print(f"Average Change: ${round(avg_change,2)}")
 print(f"Greatest Increase: {maximum_key}: ${maximum_value}")
 print(f"Greatest Decrease: {minimum_key}: ${minimum_value}")
-
