@@ -66,3 +66,14 @@ print(f"Total: ${total_net}")
 print(f"Average Change: ${round(avg_change,2)}")
 print(f"Greatest Increase: {maximum_key}: ${maximum_value}")
 print(f"Greatest Decrease: {minimum_key}: ${minimum_value}")
+
+output_path = "output.txt"
+
+with open(output_path,"w")as file:
+    file.write(f"Financial Analysis\n")
+    file.write("-------------\n")
+    file.write(f"Total Months: {total_months}\n")
+    file.write(f"Total: ${total_net}\n")
+    file.write(f"Average Change: ${round(avg_change,2)}\n")
+    file.write(f"Greatest Increase: {maximum_key}: ${maximum_value}\n")
+    file.write(f"Greatest Decrease: {minimum_key}: ${minimum_value}\n")
